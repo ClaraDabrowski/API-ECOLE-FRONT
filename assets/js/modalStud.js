@@ -1,6 +1,11 @@
 
 const popup = document.getElementById("popup-container");
-let calendar = null
+const calendarEl = document.getElementById('calendar')
+// const btn = document.createElement('button')
+let calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    events: []
+})
 
 
 
@@ -38,20 +43,15 @@ let tasks = []
 function openModalCalendar() {
 
 
-    const calendarEl = document.getElementById('calendar')
-    // const btn = document.createElement('button')
-     calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        events: []
-    })
-  
+
+
     modalCalendar.style.display = 'flex';
-      calendar.render()
+    calendar.render()
 }
 
 const modalCalendarEvent = document.querySelector('.popContain')
 
-function openModalCalendarTwo(){
+function openModalCalendarTwo() {
 
     modalCalendarEvent.style.display = 'flex';
 }
@@ -80,8 +80,8 @@ document.addEventListener('click', (e) => {
 });
 
 
-function closeModalEvent(){
-     modalCalendarEvent.style.display = 'none';
+function closeModalEvent() {
+    modalCalendarEvent.style.display = 'none';
 }
 
 
