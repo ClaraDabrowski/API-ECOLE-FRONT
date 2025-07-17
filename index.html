@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>TaskAcademy</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="./index.html">TaskAcademy</a></h1>
+        </div>
+
+        <div class="headglobal">
+            <div class="navBarre">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html">ACCUEIL</a>
+                        </li>
+                        <li>
+                            <a href="./index.html">PROMOS</a>
+                        </li>
+                        <li>
+                            <a href="./pages/students.html">ÉLÈVES</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="searchInput">
+                <input type="zoneSaisie" type="text" placeholder="Rechercher une promo..                  &#x1F50D"
+                    id="searchBar">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="btnadd">
+            <button id="btna">+ NOUVELLE PROMO</button>
+            
+        </div>
+        <section>
+            <div id="promoContainer" class="promoContainer"></div>
+        </section>
+        <section>
+            <div id="popup-container" class="popup-container">
+                <div id="popup" class="popup">
+                    <h2 id="namepop">Ajouter une promo :</h2>
+                    <form>
+                        <div>
+                            <label for="name">Nom de la promo :</label>
+                            <input type="text" placeholder="Nom.." id="name">
+                        </div>
+                        <div>
+                            <label for="forma">Intitulé de la formation :</label>
+                            <input type="text" placeholder="Formation.." id="forma">
+                        </div>
+                        <div>
+                            <label for="startDate">Date de début :</label>
+                            <input type="date" id="startDate">
+                        </div>
+                        <div>
+                            <label for="endDate">Date de fin :</label>
+                            <input type="date" id="endDate">
+                        </div>
+
+                        <button type="button" id="btnAddForm">Valider</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

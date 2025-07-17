@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web';
+    font-size: 14px;
+
+    background-color: rgb(61, 61, 61);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    color: #3D3D3D;
+    background-color: #ffffff;
+    font-family: 'Titillium Web';
+    margin: 0;
+    background-color: #282828;
+}
+
+
+header {
+    /* background-image: linear-gradient(to right, #94a8a1 0%, #d3d9d6 51%, #f7f7f7 100%); */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 20px #8e9da1;
+    text-shadow: 2px 2px 5px rgb(97, 101, 101);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #343434;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    padding: 0;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(136, 131, 131);
+    font-size: 20px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline #3D3D3D 1.5px;
+    
+    
+    
+}
+
+h1 {
+    color: #7c968d;
+    /* color: #8cb4ff; */
+    font-size: 70px;
+    font-family: "Rajdhani";
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+    
+}
+h1 a{
+    text-decoration: none;
+    color:#7c968d ;
+}
+

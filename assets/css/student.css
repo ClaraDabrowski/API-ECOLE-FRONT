@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    color: #3D3D3D;
+    background-color: #ffffff;
+    font-family: 'Titillium Web';
+    margin: 0;
+    background-color: #282828;
+}
+header div {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    /* background-image: linear-gradient(to right, #94a8a1 0%, #d3d9d6 51%, #f7f7f7 100%); */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 2px 2px 20px #8e9da1;
+    text-shadow: 2px 2px 5px rgb(97, 101, 101);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #343434;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    padding: 0;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(136, 131, 131);
+    font-size: 20px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline #3D3D3D 1.5px;
+
+}
+
+h1 {
+    color: #7c968d;
+    /* color: #8cb4ff; */
+    font-size: 70px;
+    font-family: "Rajdhani";
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+    
+}
+h1 a{
+    text-decoration: none;
+    color:#7c968d ;
+}
+
+header input{
+    padding: 6px;
+    width: 250px;
+    border-radius: 10px;
+    font-family: 'Titillium Web';
+    border-style: none;
+    background-color: #ffffffad;
+    font-size: 16px;
+    
+}
+
+header button{
+    width: 80px;
+    padding: 6px;
+    font-family: 'Titillium Web';
+     background-image: linear-gradient(to right, #819A91 0%, #a5c9bf 51%, #c3d3cf 100%) ;
+    font-family:'Titillium Web';
+    color: rgb(85, 83, 83);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.headglobal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
+
+.searchInput{
+    padding-right: 40px;
+}
+
+
+#studsContainer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.article2 {
+    border: solid #e8e3e3 0.2px;
+    background-color: #ffffffad;
+    border-radius: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #464646;
+   
+}
+
+ .article2 img {
+    border-radius: 100px;
+
+
+} 
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+
+.namecard {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: #5b9182;
+
+}
+
+.btn3 {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3D3D3D;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px #a19b9b;
+    border: none;
+    font-family:'Titillium Web';
+    background-image: linear-gradient(to right, #e6e1e1 0%, #e5e9e7 51%, #f7f7f7 100%);
+    color: rgb(85, 83, 83);
+    font-weight: bold;
+}
+
+.btn3-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.btn4 {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #578E7E;
+    box-shadow: 5px 5px 5px #a19b9b;;
+    border: none;
+    background-image: linear-gradient(to right, #819A91 0%, #a5c9bf 51%, #c3d3cf 100%) ;
+    font-family:'Titillium Web';
+    color: rgb(85, 83, 83);
+    font-weight: bold;
+}
+
+
+.btn4-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.btn2container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+#btnabc {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 5px 5px 5px #535252;;
+    color: rgb(71, 69, 69);
+    font-family:'Titillium Web';
+    font-weight: bold;
+
+
+}
+
+
+#btnabc-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 20px #a19b9b;;
+    border-radius: 10px;
+    display: block;
+}
+
+
+#btnabc {
+    background-image: linear-gradient(to right, #657770 0%, #93aca5 51%, #a6b3af 100%)
+}
+
+
+#btnabb {
+    background-image: linear-gradient(to right, #657770 0%, #93aca5 51%, #a6b3af 100%)
+}
+
+
+#btnabb-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 20px #a19b9b;;
+    border-radius: 10px;
+    display: block;
+}
+
+
+#btnabb {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 5px 5px 5px #535252;;
+    color: rgb(71, 69, 69);
+    font-family:'Titillium Web';
+    font-weight: bold;
+
+}
+
+.btnadd {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    gap: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+
+
+.popup form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.popup button {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.popup input {
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.popup div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-container {
+    background-color: rgba(0, 0, 0, 0.759);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+
+
+@media (max-width: 700px){
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        padding: 0;
+    }
+
+    header nav ul {
+        padding: 0;
+    }
+}
+
+
+#modalCalend{
+    /* height: 100vh;
+    width: 100vh; */
+    background-color: #0000009d;
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+#calendar {
+    width:800px;
+    height: 550px;
+    background-color: rgb(192, 188, 188);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgb(70, 70, 70) 10px 10px 10px;
+
+
+}
+
+#calendar h2{
+    color: rgb(91, 122, 111);
+}
+
+
+.pop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.pop div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#popuptwo h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+#popuptwo input {
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+
+}
+
+#popuptwo button {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #67aa97;
+
+}
+
+#popuptwo {
+    background-color: #d9d6d6;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    width: 250px;
+    box-shadow: 5px 5px 5px #a19b9b;
+}
+
+.popContain {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.759);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgb(124, 150, 141);
+
+}
+
+.fc-h-event .fc-event-main {
+    background-color: rgb(212, 140, 68);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  
+}
+
+.fc .fc-button-primary {
+    color: #000000;
+    background-color: rgb(124, 150, 141);
+}
+
+.fc .fc-button-primary:disabled {
+    background-color: rgb(124, 150, 141);
+    color: #000000;
+}
+
+.fc-button-bg-color{
+    color:rgba(0, 0, 0, 0) ;
+}
+
+.root .fc-border-color {
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+
+
+#btnevent {
+    background-image: linear-gradient(to right, #657770 0%, #93aca5 51%, #a6b3af 100%)
+}
+
+
+#btnevent-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 20px #a19b9b;;
+    border-radius: 10px;
+    display: block;
+}
+
+
+#btnevent {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 5px 5px 5px #535252;;
+    color: rgb(71, 69, 69);
+    font-family:'Titillium Web';
+    font-weight: bold;
+
+}

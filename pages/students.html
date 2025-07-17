@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/student.css">
+    <link rel="stylesheet" href="../assets/css/calendar.css">
+    <title>Students Task</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="../index.html">TaskAcademy</a></h1>
+        </div>
+        <div class="headglobal">
+            <div class="navBarre">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../index.html">ACCUEIL</a>
+                        </li>
+                        <li>
+                            <a href="./pages/dev.html">PROMOS</a>
+                        </li>
+                        <li>
+                            <a href="./pages/html.html">ÉLÈVES</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="searchInput">
+                <input type="zoneSaisie" type="text" placeholder=" Rechercher un élève..                     &#x1F50D "
+                    id="searchBarStud">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="btnadd">
+            <button id="btnabb"> + NOUVEL ÉLÈVE</button>
+            <button id="btnabc"> + CALENDRIER</button>
+        </div>
+        <section>
+            <div id="studsContainer" class="studentsContainer"></div>
+        </section>
+        <section>
+            <div class="popup-container" id="popup-container">
+                <div id="popup" class="popup">
+                    <h2 id="namepopstud">Ajouter un élève :</h2>
+                    <form>
+                        <div>
+                            <label for="name">Prénom:</label>
+                            <input type="text" placeholder="Prénom.." id="namestud">
+                        </div>
+                        <div>
+                            <label for="lastName">Nom :</label>
+                            <input type="text" placeholder="Nom.." id="lastnamestud">
+                        </div>
+                        <div>
+                            <label for="age">Age :</label>
+                            <input type="text" placeholder="Age.." id="agestud">
+                        </div>
+                        <div>
+                            <label for="avatar">Avatar</label>
+                            <input type="file" id="avatarstud">
+                        </div>
+
+
+                        <button type="button" id="btnAddForm2">Valider</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="popContain">
+                    <div id="popuptwo">
+                        <h2>Ajouter un événement..</h2>
+                        <div class="pop">
+                            <div>
+                                <label for="date">Date de l'événement :</label>
+                                <input type="date" id="date">
+
+                                <div>
+                                    <label for="name">Nom de l'événement :</label>
+                                    <input type="text" id="name" placeholder="Événement..">
+                                </div>
+
+
+                                <button id="bt">Ajouter</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="modalCalend">
+                <button id="btnevent"> + ÉVÈNEMENTS</button>
+                <div id="calendar"></div>
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js "></script>
+    <script src="../assets/js/modalStud.js"></script>
+    <script src="../assets/js/student.js"></script>
+</body>
+
+</html>
