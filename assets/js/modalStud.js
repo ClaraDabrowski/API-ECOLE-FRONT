@@ -1,11 +1,14 @@
 
 const popup = document.getElementById("popup-container");
 const calendarEl = document.getElementById('calendar')
+// const calendare = localStorage.getItem('calendar')
 // const btn = document.createElement('button')
 let calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
     events: []
 })
+
+
 
 
 

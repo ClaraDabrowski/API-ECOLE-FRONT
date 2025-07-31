@@ -6,6 +6,8 @@ const searchBarStud = document.querySelector('#searchBarStud')
 console.log(promoid);
 
 
+
+
 document.querySelector("#btnabb").addEventListener('click', () => {
     updateModes = false
     openModale();

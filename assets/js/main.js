@@ -170,6 +170,8 @@ function displayPromo(promo) {
     })
     buttonContainer.appendChild(buttonthree)
 
+
+
     const button = document.createElement("button");
     button.classList.add('btn')
     button.innerHTML = 'Modifier';
