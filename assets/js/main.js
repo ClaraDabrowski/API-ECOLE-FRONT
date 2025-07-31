@@ -169,6 +169,7 @@ function displayPromo(promo) {
         location.href = "./pages/students.html"
     })
     buttonContainer.appendChild(buttonthree)
+console.log('coucou');
 
 
 
